@@ -26,7 +26,7 @@
       </div>
 
       <div class="">
-        <ul class="lg:flex hidden sm:block">
+        <ul class="lg:flex hidden sm:block lg:text-white lg:mt-3">
           <li>About</li>
           <li>Gallary</li>
           <li>Plant a tree</li>
@@ -41,19 +41,19 @@
     <div class="grid grid-cols-3 bg-green-200">
       <div>
         <img
-          class="pt-34 w-[100%] lg:w-[40%]"
+          class="pt-34 lg:w-[100%]"
           src="picture/hero-leaf_one.png"
           alt=""
         />
       </div>
-      <div class="mb-4">
+      <div class="mb-4 lg:mt-38 lg:ml-4">
         <h2 class="mt-4 font-bold text-center">Plant a , Grow a Future</h2>
         <p class="text-center">
           Join our mission to plant 1 million trees and make the Earth greener
           for future generations.
         </p>
         <button
-          class="text-center bg-yellow-300 px-4 py-2 rounded-full ml-5 mt-2"
+          class="lg:ml-40 text-center bg-yellow-300 px-4 py-2 rounded-full ml-5 mt-2"
         >
           Get Involved
         </button>
@@ -61,7 +61,7 @@
 
       <div>
         <img
-          class="pt-34 w-[100%] lg:w-[40%]"
+          class="pt-34  lg:w-[100%]"
           src="picture/hero-leaf_two.png"
           alt=""
         />
@@ -73,56 +73,63 @@
       <div>
         <h2 class="text-center text-2xl">Choose Your Trees</h2>
       </div>
-      <div class="w-2/2">
+      <div class="w-2/2 lg:grid lg:grid-cols-3">
         <div class="ml-9">
           <h2 class="font-bold text-xl">Categories</h2>
           <div>
             <ul class="font-bold ml-4 mt-3 flex lg:flex-col gap-8">
-              <li class="hover:bg-green-400 hover:text-white">Fruiet Tree</li>
-              <li class="hover:bg-green-400 hover:text-white">
+              <li class="hover:bg-green-600 hover:text-white">Fruiet Tree</li>
+              <li class="hover:bg-green-600 hover:text-white">
                 Flowering Tree
               </li>
-              <li class="hover:bg-green-400 hover:text-white">Shade Tree</li>
+              <li class="hover:bg-green-600 hover:text-white">Shade Tree</li>
             </ul>
           </div>
           <div>
             <ul class="font-bold ml-4 flex lg:flex-col gap-8">
-              <li class="hover:bg-green-400 hover:text-white">
+              <li class="hover:bg-green-600 hover:text-white">
                 Medicinal Tree
               </li>
-              <li class="hover:bg-green-400 hover:text-white">Timber Tree</li>
+              <li class="hover:bg-green-600 hover:text-white">Timber Tree</li>
             </ul>
           </div>
           <div>
             <ul class="font-bold ml-4 flex lg:flex-col gap-8">
-              <li class="hover:bg-green-400 hover:text-white">
+              <li class="hover:bg-green-600 hover:text-white">
                 Evergreen Tree
               </li>
-              <li class="hover:bg-green-400 hover:text-white">
+              <li class="hover:bg-green-600 hover:text-white">
                 Ornamental Plant
               </li>
             </ul>
           </div>
           <div>
             <ul class="font-bold ml-4 flex lg:flex-col gap-8">
-              <li class="hover:bg-green-400 hover:text-white">Bamboo</li>
-              <li class="hover:bg-green-400 hover:text-white">Climber</li>
-              <li class="hover:bg-green-400 hover:text-white">Aquatic Plant</li>
+              <li class="hover:bg-green-600 hover:text-white">Bamboo</li>
+              <li class="hover:bg-green-600 hover:text-white">Climber</li>
+              <li class="hover:bg-green-600 hover:text-white">Aquatic Plant</li>
             </ul>
           </div>
         </div>
         <!--content 1 start-->
-        <div class="shadow-xl m-7">
+        <div class="shadow-xl m-7 p-4">
           <div>
             <img class="w-[100%] -p-20" src="picture/mango-min.png" alt="" />
           </div>
-          <h2 class="text-center font-bold">Mango Tree</h2>
-          <p class="text-center p-3">
+          <h2 class="font-bold">Mango Tree</h2>
+          <p class="">
             A fast-growing tropical tree that produces delicious, juicy mangoes
             during summer. <br />
             Its dense green canopy offers shade, <br />
             while its sweet fruits are rich in vitamins and minerals.
           </p>
+          <div class="grid grid-cols-2 gap-48">
+            <p>fruit Tree</p>
+            <p>ট 500</p>
+          </div>
+          <div class="text-center bg-green-600 m-4 p-2 rounded-4xl text-white">
+            <button class="">Add to Cart</button>
+          </div>
         </div>
         <div class="shadow-xl m-7 p-4">
           <div>
@@ -230,12 +237,15 @@
 
       <!--content first section end-->
       <!--content second section start-->
-      <div class="m-4">
-        <h2 class="text-center text-3xl">About the Campaign</h2>
-        <div>
-          <img class="w-[70%] ml-15 mt-5" src="picture/aboutyy.png" alt="" />
-        </div>
-        <p class="text-center mt-5">
+      <h2 class="text-center text-3xl">About the Campaign</h2>
+      <div class="m-4 ">
+        <div class="lg:grid lg:grid-cols-3">
+          <img
+            class="w-[70%] lg:w-[30%] ml-15 mt-5"
+            src="picture/aboutyy.png"
+            alt=""
+          />
+            <p class="text-center mt-5">
           Green Earth is a global tree plantation initiative <br />
           dedicated to fighting climate change. Since our <br />
           start, we've plant over 500,0000 trees worldwide. <br />
@@ -243,34 +253,35 @@
           create habitats for wildlife, and combat global <br />
           warming
         </p>
-        <div class="text-center mt-6">
           <p>1.Restoration of natural habitats</p>
           <p>2.Improvement of air quality</p>
           <p>3.Support for local communities</p>
+        </div>
+      
         </div>
       </div>
       <!--content second section end-->
     </div>
     <!--content third section start-->
-    <div class="text-center bg-green-500">
+    <div class="text-center bg-green-300">
       <h2 class="pt-3 font-bold text-green-700">Our Impact</h2>
-      <div class="bg-slate-50 mt-6 p-3">
+      <div class="bg-slate-50 mt-6 p-3 m-6">
         <p class="font-bold text-green-800">500k +</p>
         <p>Trees Planted</p>
       </div>
-      <div class="bg-slate-50 mt-6 p-3">
+      <div class="bg-slate-50 mt-6 p-3 m-6">
         <p class="font-bold text-green-800">120+</p>
         <p>Communities Involved</p>
       </div>
-      <div class="bg-slate-50 mt-6 p-3">
+      <div class="bg-slate-50 p-3 m-6">
         <p class="font-bold text-green-800">30+</p>
         <p>Countries Reached</p>
       </div>
     </div>
     <!--content third section start-->
     <!--content fourth section start-->
-    <div class="bg-green-600 p-2">
-      <div class="m-7 shadow-xl p-6 bg-green-500">
+    <div class="bg-green-600 p-2 mt-2">
+      <div class="m-7 lg:m-100 shadow-xl p-6 lg:p-10 bg-green-700">
         <h2 class="text-center font-bold text-white">Plant a Tree Today</h2>
         <div class="grid">
           <input
